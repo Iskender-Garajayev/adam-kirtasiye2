@@ -70,18 +70,6 @@
   height: 600px;
 }
 
-.header-print {
-  width: 300px;
-  margin: 0 auto;
-  text-transform: capitalize;
-  font-family: 'Zilla Slab', serif;
-  font-style: italic;
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .home-inner {
   width: 85%;
   height: 600px;
@@ -129,11 +117,24 @@
   height: 600px;
 }
 
+.header-print {
+  width: 300px;
+  margin: 0 auto;
+  text-transform: capitalize;
+  font-family: 'Zilla Slab', serif;
+  font-style: italic;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .print-inner {
   width: 85%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-evenly;
+  gap: 100px;
+  justify-content: center;
   align-items: center;
 }
 
@@ -149,6 +150,13 @@
   width: 400px;
 }
 
+.print-title ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .print-title ul li {
   list-style-type: none;
   margin-bottom: 8px;
@@ -156,7 +164,156 @@
   font-size: 24px;
   font-style: italic;
   font-weight: 500;
+  cursor: pointer;
+  width: 150px;
   /* margin-left: -150px; */
 }
 
 /* Print section end */
+
+/* About section start */
+
+.about-container {
+  width: 100%;
+  height: 200px;
+}
+
+.about-inner {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.about-header {
+  width: 300px;
+  margin: 0 auto;
+  text-transform: capitalize;
+  font-family: 'Zilla Slab', serif;
+  font-style: italic;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-dsc {
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Zilla Slab', serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* About section end */
+
+/* Uty section start */
+
+.uty-container {
+  width: 100%;
+  height: 600px;
+}
+
+.uty-header {
+  width: 60%;
+  margin: 0 auto;
+  text-transform: capitalize;
+  font-family: 'Zilla Slab', serif;
+  font-style: italic;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.uty-inner {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.uty-img {
+  width: 400px;
+}
+
+.uty-img img {
+  width: 100%;
+}
+
+.uty-title {
+  width: 400px;
+}
+
+.uty-title ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.uty-title ul li {
+  list-style-type: none;
+  margin-bottom: 8px;
+  font-family: 'Zilla Slab', serif;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  cursor: pointer;
+  width: 250px;
+  text-transform: capitalize;
+  /* margin-left: -150px; */
+}
+
+/* Uty section end */
+
+/* Deliver section start */
+
+.deliver-container {
+  width: 100%;
+  height: 600px;
+}
+
+.deliver-inner {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.deliver-img {
+  width: 400px;
+}
+
+.deliver-img img {
+  width: 100%;
+}
+
+.deliver-title {
+  width: 400px;
+}
+
+/* Deliver section  end */
+
+/* whatsapp section start */
+.whatsapp {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+.whatsapp a img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Whatsapp section end */
