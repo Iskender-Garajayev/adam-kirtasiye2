@@ -4,6 +4,7 @@ import Printerİmg from '../img/printer2.png';
 import Whatsapp from '../img/whatsapp-logo-8AE44BBBB0-seeklogo.com.png';
 import Uty from '../img/u-ty-logo.png';
 import Postman from '../img/postman.png';
+import AyuLogo from '../img/ayu_logo.png';
 
 const Main = () => {
   return (
@@ -101,11 +102,38 @@ const Main = () => {
           </div>
           <div className='deliver-title'>
             <h3>Lütfen derslerinizi iletiniz. Hızlıca gönderelim.</h3>
+            <button className='home-btn'>
+              <a href='https://wa.me/05412240841'>whatsapp hattı</a>
+            </button>
           </div>
         </div>
       </section>
 
       {/* Delivery section end */}
+
+      {/* yukpl section start */}
+
+      <section className='uty-container'>
+        <div className='uty-header'>
+          <h2> Ahmet Yesevi Üniversitesi Uzaktan Yüksek Lisans Programları </h2>
+        </div>
+        <div className='uty-inner'>
+          <div className='uty-img'>
+            <img src={AyuLogo} alt='ayu-logo' />
+          </div>
+          <div className='uty-title'>
+            <ul>
+              <li>Türkçenin yabancılara öğretimi</li>
+              <li>Türk dili</li>
+              <li> çıkmış sorular</li>
+              <li> vitamin bilgiler</li>
+              <li> atom notlar</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* yukpl section end */}
 
       {/* Whatsapp Section start */}
       <div className='whatsapp'>

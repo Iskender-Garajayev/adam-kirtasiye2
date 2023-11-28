@@ -22,7 +22,7 @@ const Header = () => {
               </g>{' '}
             </svg>
           </span>
-          KIRTASIYE
+          KIRTASİYE
         </div>
         <div className='navbar'>
           <span className='svg'>

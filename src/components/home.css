@@ -280,7 +280,7 @@
 
 .deliver-container {
   width: 100%;
-  height: 600px;
+  height: 300px;
 }
 
 .deliver-inner {
@@ -302,6 +302,18 @@
 
 .deliver-title {
   width: 400px;
+}
+
+.deliver-title h3{
+  list-style-type: none;
+  margin-bottom: 8px;
+  font-family: 'Zilla Slab', serif;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 500;
+  cursor: pointer;
+  width: 400px;
+  text-transform: capitalize;
 }
 
 /* Deliver section  end */
