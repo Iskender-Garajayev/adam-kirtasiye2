@@ -93,6 +93,7 @@ const Main = () => {
       </section>
       {/* univer section end */}
 
+      {/* delivery section start */}
       <section className='deliver-container'>
         <div className='deliver-inner'>
           <div className='deliver-img'>
@@ -103,6 +104,8 @@ const Main = () => {
           </div>
         </div>
       </section>
+
+      {/* Delivery section end */}
 
       {/* Whatsapp Section start */}
       <div className='whatsapp'>
