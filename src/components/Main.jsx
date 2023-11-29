@@ -139,9 +139,7 @@ const Main = () => {
 
       <div className='about-container'>
         <div className='about-inner'>
-          <div className='about-header'>
-            <h2></h2>
-          </div>
+          <div className='about-header'></div>
           <div className='about-dsc'>
             <p>
               TÜM DERS NOTLARI VE YARDIMCI KAYNAKLAR İÇİN LÜTFEN İLETİŞİME
@@ -151,6 +149,31 @@ const Main = () => {
         </div>
       </div>
       {/* About section end */}
+
+      {/* yabacı dil section start */}
+
+      <section className='uty-container'>
+        <div className='uty-header'>
+          <h2>
+            Bireysel ve doğal yöntemlerle(nature method) yabacı dil kıtapları
+          </h2>
+        </div>
+        <div className='uty-inner'>
+          <div className='ayu-img'>
+            <img src={AyuLogo} alt='ayu-logo' />
+          </div>
+          <div className='uty-title'>
+            <ul>
+              <li>English by the Nature Method</li>
+              <li>L'İtaliano Secondo Il Metodo Natura</li>
+              <li>Le Français Par La Methode Nature</li>
+              <li>Deutsch</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* yabancı dil section end */}
 
       {/* Whatsapp Section start */}
       <div className='whatsapp'>
