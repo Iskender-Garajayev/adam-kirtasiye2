@@ -26,6 +26,28 @@ const Main = () => {
       </section>
       {/* Home Section end */}
 
+      {/* About section start */}
+      <div className='about-container'>
+        <div className='about-inner'>
+          <div className='about-header'>
+            <h2>hakkımızda</h2>
+          </div>
+          <div className='about-dsc'>
+            <p>
+              Ada'm kırtasiye olarak, yılların vermiş olduğu tecrübe ile tüm
+              Türkiye'ye baskı, fotokopi ve ciltleme hizmeti sunmak amacıyla
+              çıktığımız bu yolda "ONLİNE BASKI MERKEZİ" kavramının ÖNCÜSÜ
+              olmaktan gurur duyuyoruz. Misyonumuz sürekli değişen ve gelişen
+              teknoloji içerisinde,sahip olduğumuz bilgi ve tecrübemizi,insana
+              ve çevreye duyarlı bir şekilde, dünyada ki gelişmeleri de göz
+              önüne alarak uygulamak ve müşteri memnuniyetini ön planda tutarak
+              hizmet vermektir.
+            </p>
+          </div>
+        </div>
+      </div>
+      {/* About section end */}
+
       {/* Print Section start */}
 
       <section className='print-container'>
@@ -50,28 +72,6 @@ const Main = () => {
       </section>
 
       {/* Print Section end */}
-
-      {/* About section start */}
-      <div className='about-container'>
-        <div className='about-inner'>
-          <div className='about-header'>
-            <h2>hakkımızda</h2>
-          </div>
-          <div className='about-dsc'>
-            <p>
-              Ada'm kırtasiye olarak, yılların vermiş olduğu tecrübe ile tüm
-              Türkiye'ye baskı, fotokopi ve ciltleme hizmeti sunmak amacıyla
-              çıktığımız bu yolda "ONLİNE BASKI MERKEZİ" kavramının ÖNCÜSÜ
-              olmaktan gurur duyuyoruz. Misyonumuz sürekli değişen ve gelişen
-              teknoloji içerisinde,sahip olduğumuz bilgi ve tecrübemizi,insana
-              ve çevreye duyarlı bir şekilde, dünyada ki gelişmeleri de göz
-              önüne alarak uygulamak ve müşteri memnuniyetini ön planda tutarak
-              hizmet vermektir.
-            </p>
-          </div>
-        </div>
-      </div>
-      {/* About section end */}
 
       {/* univer section start */}
       <section className='uty-container'>
