@@ -156,7 +156,8 @@ const Main = () => {
       <section className='uty-container'>
         <div className='uty-header'>
           <h2>
-            Bireysel ve doğal yöntemlerle(nature method) yabacı dil kıtapları
+            Bireysel ve doğal yöntemlerle(nature method by english) yabancı dil
+            kıtapları
           </h2>
         </div>
         <div className='uty-inner'>
@@ -167,7 +168,7 @@ const Main = () => {
             <ul>
               <li>English by the Nature Method</li>
               <li>L'İtaliano Secondo Il Metodo Natura</li>
-              <li>Le Français Par La Methode Nature</li>
+              <li>Le Français Par La Methode</li>
               <li>Deutsch</li>
             </ul>
           </div>
