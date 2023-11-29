@@ -118,22 +118,39 @@ const Main = () => {
           <h2> Ahmet Yesevi Üniversitesi Uzaktan Yüksek Lisans Programları </h2>
         </div>
         <div className='uty-inner'>
-          <div className='uty-img'>
+          <div className='ayu-img'>
             <img src={AyuLogo} alt='ayu-logo' />
           </div>
           <div className='uty-title'>
             <ul>
               <li>Türkçenin yabancılara öğretimi</li>
               <li>Türk dili</li>
-              <li> çıkmış sorular</li>
-              <li> vitamin bilgiler</li>
-              <li> atom notlar</li>
+              <li>Ölçme ve değerlendirme</li>
+              <li>Eğitim yönetimi</li>
+              <li>Uluslararası ilişkiler</li>
+              <li>Yerel yönetimler</li>
+              <li>Sağlık yöneticiliği</li>
             </ul>
           </div>
         </div>
       </section>
 
       {/* yukpl section end */}
+
+      <div className='about-container'>
+        <div className='about-inner'>
+          <div className='about-header'>
+            <h2></h2>
+          </div>
+          <div className='about-dsc'>
+            <p>
+              TÜM DERS NOTLARI VE YARDIMCI KAYNAKLAR İÇİN LÜTFEN İLETİŞİME
+              GEÇİN.
+            </p>
+          </div>
+        </div>
+      </div>
+      {/* About section end */}
 
       {/* Whatsapp Section start */}
       <div className='whatsapp'>

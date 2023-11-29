@@ -318,6 +318,20 @@
 
 /* Deliver section  end */
 
+/* ayu sectşon start */
+.ayu-img{
+width: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.ayu-img img{
+width: 90%;
+}
+
+
+/* ayu sectşon end */
+
 /* footer section start */
 .footer-container{
   width: 100%;
