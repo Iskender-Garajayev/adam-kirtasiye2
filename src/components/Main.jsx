@@ -5,10 +5,11 @@ import Whatsapp from '../img/whatsapp-logo-8AE44BBBB0-seeklogo.com.png';
 import Uty from '../img/u-ty-logo.png';
 import Postman from '../img/postman.png';
 import AyuLogo from '../img/ayu_logo.png';
+import Books from '../img/books.png';
 
 const Main = () => {
   return (
-    <div>
+    <div className='main-container'>
       {/* Home Section start */}
       <section className='home-container'>
         <div className='home-inner'>
@@ -160,7 +161,7 @@ const Main = () => {
         </div>
         <div className='uty-inner'>
           <div className='ayu-img'>
-            <img src={AyuLogo} alt='ayu-logo' />
+            <img src={Books} alt='ayu-logo' />
           </div>
           <div className='uty-title'>
             <ul>
