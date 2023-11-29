@@ -38,11 +38,11 @@
   justify-content: center;
   align-items: center;
   gap: 3px;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 550;
 }
 .logo span svg {
-  width: 20px;
+  width: 22px;
 }
 
 .navbar {
