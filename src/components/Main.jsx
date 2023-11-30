@@ -3,7 +3,7 @@ import Homeİmg from '../img/home-bg.png';
 import Printerİmg from '../img/printer2.png';
 import Whatsapp from '../img/whatsapp-logo-8AE44BBBB0-seeklogo.com.png';
 import Uty from '../img/u-ty-logo.png';
-import Postman from '../img/postman.png';
+// import Postman from '../img/postman.png';
 import AyuLogo from '../img/ayu_logo.png';
 import Books from '../img/books.png';
 
@@ -90,13 +90,19 @@ const Main = () => {
               <li> vitamin bilgiler</li>
               <li> atom notlar</li>
             </ul>
+            <div className='deliver-title'>
+              <h3>Lütfen derslerinizi iletiniz. Hızlıca gönderelim.</h3>
+              <button className='home-btn'>
+                <a href='https://wa.me/05412240841'>whatsapp hattı</a>
+              </button>
+            </div>
           </div>
         </div>
       </section>
       {/* univer section end */}
 
       {/* delivery section start */}
-      <section className='deliver-container'>
+      {/* <section className='deliver-container'>
         <div className='deliver-inner'>
           <div className='deliver-img'>
             <img src={Postman} alt='' />
@@ -108,7 +114,7 @@ const Main = () => {
             </button>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Delivery section end */}
 
@@ -132,13 +138,23 @@ const Main = () => {
               <li>Yerel yönetimler</li>
               <li>Sağlık yöneticiliği</li>
             </ul>
+            <div className='deliver-title'>
+              <h3>
+                {' '}
+                TÜM DERS NOTLARI VE YARDIMCI KAYNAKLAR İÇİN LÜTFEN İLETİŞİME
+                GEÇİN.
+              </h3>
+              <button className='home-btn'>
+                <a href='https://wa.me/05412240841'>whatsapp hattı</a>
+              </button>
+            </div>
           </div>
         </div>
       </section>
 
       {/* yukpl section end */}
 
-      <div className='about-container'>
+      {/* <div className='about-container'>
         <div className='about-inner'>
           <div className='about-header'></div>
           <div className='about-dsc'>
@@ -148,7 +164,7 @@ const Main = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* About section end */}
 
       {/* yabacı dil section start */}

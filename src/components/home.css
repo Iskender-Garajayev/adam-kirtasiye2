@@ -317,12 +317,13 @@
 .deliver-title h3{
   list-style-type: none;
   margin-bottom: 8px;
+  margin-top: 10px;
   font-family: 'Zilla Slab', serif;
-  font-size: 30px;
+  font-size: 24px;
   font-style: italic;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
-  width: 400px;
+  width: 450px;
   text-transform: capitalize;
 }
 
@@ -364,12 +365,12 @@ width: 90%;
 /* map section start */
 .map-container{
   width: 100%;
-  height: 300px;
+  height: 350px;
 }
 
 .map{
   width: 100%;
-  height: 300px;
+  height: 350px;
 }
 /* map section end */
 
