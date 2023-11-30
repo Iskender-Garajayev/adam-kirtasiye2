@@ -65,7 +65,7 @@ const Main = () => {
               <li>Kitapçık</li>
               <li>Spiral</li>
               <li>TEZ</li>
-              <li>Staj Dosyalları</li>
+              <li>Staj Dosyaları</li>
             </ul>
           </div>
         </div>
@@ -176,6 +176,21 @@ const Main = () => {
       </section>
 
       {/* yabancı dil section end */}
+
+      {/* map section start */}
+      <div className='map-container'>
+        <iframe
+          className='map'
+          title='map'
+          src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3046.0553762574605!2d28.840035174985392!3d40.23007096698044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ca0f20761f3d77%3A0xbce48dc16ecd5885!2sADA&#39;M%20KIRTAS%C4%B0YE!5e0!3m2!1str!2str!4v1701352337258!5m2!1str!2str'
+          // width='600'
+          // height='450'
+          allowfullscreen=''
+          loading='lazy'
+          referrerpolicy='no-referrer-when-downgrade'
+        ></iframe>
+      </div>
+      {/* map section end */}
 
       {/* Whatsapp Section start */}
       <div className='whatsapp'>
