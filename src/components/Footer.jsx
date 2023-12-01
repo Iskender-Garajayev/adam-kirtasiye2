@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Footer = () => {
+  const year = new Date().getFullYear();
   return (
     <div className='footer-container'>
       <div className='footer-inner'>
@@ -25,6 +26,7 @@ const Footer = () => {
             </svg>
           </span>
           KIRTASİYE
+          <span>&copy; {year}</span>
         </div>
       </div>
     </div>

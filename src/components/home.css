@@ -357,23 +357,24 @@ width: 90%;
 .revievs-container{
   width: 100%;
   height: 520px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.WidgetTitle__Header-sc-ruy1gu-2{
-  display: none;
-}
+
 
 .revievs-container iframe{
-  width: 100%;
+  width: 85%;
   height: 520px;
-  margin-left: auto;
-  margin-right: auto;
+
 }
 /* revievs section end */
 
 /* footer section start */
 .footer-container{
-  background: linear-gradient(-20deg, #867999 0%,);
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  
   
   width: 100%;
   height: 60px;
