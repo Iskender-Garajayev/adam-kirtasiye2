@@ -6,6 +6,7 @@ import Uty from '../img/u-ty-logo.png';
 // import Postman from '../img/postman.png';
 import AyuLogo from '../img/ayu_logo.png';
 import Books from '../img/books.png';
+import Revievs from './Revievs';
 
 const Main = () => {
   return (
@@ -169,7 +170,7 @@ const Main = () => {
 
       {/* yabacı dil section start */}
 
-      <section className='uty-container'>
+      <section className='lang-container'>
         <div className='uty-header'>
           <h2>
             Bireysel ve doğal yöntemlerle(nature method by english) yabancı dil
@@ -192,6 +193,8 @@ const Main = () => {
       </section>
 
       {/* yabancı dil section end */}
+
+      <Revievs />
 
       {/* map section start */}
       <div className='map-container'>
