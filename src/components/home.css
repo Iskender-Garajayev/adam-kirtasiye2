@@ -485,14 +485,14 @@ width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
     border-radius: 50%;
     border: 2px solid #e8630a;
   }
   
   .navbar .svg svg {
-    width: 9 px;
+    width: 10px;
   }
 
   
